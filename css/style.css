@@ -1,0 +1,198 @@
+
+.navbar{
+  background-color: #fff;
+  border-radius: 0;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.navbar-nav{
+  float: right;
+}
+.navbar-default .navbar-nav>li.highlighted>a{
+  color: #3498db;
+}
+/*************NAV END*************/
+
+.background_parallax {
+  background: url(../img/bg-photo.jpg) no-repeat center top;
+}
+.background_parallax h1{
+  color: white;
+  font-family: sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 140px;
+  line-height: 65px;
+}
+.background_parallax p {
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+}
+.background_parallax p a {
+  color: white;
+  text-decoration: underline;
+}
+#tagline {
+  background: rgba(0, 0, 0, 0.3);
+  width: calc(100%);
+  height: 100%;
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+#tagline form {
+  margin-top: 20px;
+  
+}
+#tagline form input{
+  width: 100%;
+}
+#tagline form input[type="email"],
+#tagline form input[type="password"] {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  padding-left: 20px;
+  height: 45px;
+  border: none;
+}
+#tagline form ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+}
+#tagline form input[type="email"]:focus,
+#tagline form input[type="password"]:focus {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #3498db;
+  color: #3498db;
+}
+#tagline form input[type="email"]:focus::-webkit-input-placeholder,
+#tagline form input[type="password"]:focus::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #3498db;
+}
+form input[type="submit"] {
+  
+  height: 45px;
+  background: #3498db;
+  color: white;
+  font-size: 22px;
+  font-family:sans-serif;
+  text-align: center;
+  border: 0;
+}
+.disclaimer a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.margin-top{
+  margin-top: 20px;
+}
+.margin-top2{
+  margin-top: 80px;
+}
+.sans-serif{
+  font-family: arial;
+}
+/****background parallax END****/
+
+.thumbnail{
+  border: none;
+  background: none;
+}
+
+/*first thumbnail section END*/
+.jumbotron{
+  background: rgba(52, 152, 219, .1);
+}
+.carousel-control.right,
+.carousel-control.left{
+  background: none;
+
+}
+.carousel-control{
+  text-shadow:none;
+}
+.carousel-indicators li{
+  background: skyblue;
+}
+.carousel-indicators .active{
+  background-color: #000;
+}
+.carousel-control.right{
+  right:-60px;
+}
+.carousel-control.left{
+  left: -60px;
+}
+.glyphicon-chevron-left,
+.glyphicon-chevron-right{
+  color: #000;
+}
+.item h4{
+  line-height: 35px;
+  text-align: center;
+}
+/*slider END*/
+.gray-bg{
+  background: rgba(244, 242, 239, 0.5);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.btn{
+  padding: 10px 0;
+  width: 330px;
+  font-size: 24px;
+}
+/* second thumbnail section END*/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear:both;
+  padding-top: 50px;
+  color: #ccc;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.social-icon {
+  width: 38px;
+  height: 38px;
+  margin: 0 5px;
+}
+/*footer END*/
+@media (max-width: 768px) {
+  .navbar-nav{
+    float: none;
+  text-align: center;
+}
+
+.background_parallax p {
+  font-size: 1em;
+}
+}
+/******max width 768 END*****/
+
+@media (max-width: 992px) {
+
+  .background_parallax h1 {
+    font-size: 3em;
+    line-height: 40px;
+  }
+    .logo-margin img{
+    display: none;
+  }
+
+}
+/******max width 992 END*****/
+@media (max-width: 1200px) {
+
+}
+/******max width 1200 END*****/
